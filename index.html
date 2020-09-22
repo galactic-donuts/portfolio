@@ -6,6 +6,8 @@
     <title>Kiya's Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom"> 
@@ -13,12 +15,33 @@
              limited bootstrap colors. you have to use .navbar-custom in css when styling it as that is considered
               the class -->
         <form class="form-inline">
-            <button class="btn btn-outline-warning mt-2 mb-2" type="button">Home</button>
-            <button class="btn btn-md btn-outline-warning mt-2 mb-2 ml-4" type="button">About</button>
-            <button class="btn btn-md btn-outline-warning mt-2 mb-2 ml-4" type="button">Projects</button>
-            <button class="btn btn-md btn-outline-warning mt-2 mb-2 ml-4" type="button">Extra</button>
-            <button class="btn btn-md btn-outline-warning mt-2 mb-2 ml-4" type="button">Contact</button>
+            <button class="btn btn-outline-warning mt-2 mb-2 ml-3" type="button">Home</button>
+            <button class="btn btn-md btn-outline-warning mt-2 mb-2 ml-4 " type="button">About</button>
+            <button class="btn btn-md btn-outline-warning mt-2 mb-2 ml-4 " type="button">Projects</button>
+            <button class="btn btn-md btn-outline-warning mt-2 mb-2 ml-4 " type="button">Contact</button>
+            <!-- need to figure out how to add another button that says 'Welcome'  and is moved much further to the right 
+            side of the navbar with bootstrap. bootstrap only allows you to move the margin to the left by a max of 5 
+        without having to add code to css-->
           </form>
       </nav>
+<!-- Bootstrap jumbotron //  -->
+      <!-- <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-3">Fluid jumbotron</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div> -->
+      <!-- regular div and using the h1 tag alone would not allow margin-top to work in css
+    gave the div an id name and put the h1 tag inside the div for it to work -->
+      <div>
+<h1>Kiya Jones</h1> 
+<!-- <h1 class='name'>My Name</h1> would work and allow you customize it in css without have to use !important
+as would using an id. <div id="heading"></div> would not work when trying to style in css because the heading 
+is not being specifically targeted so you would have to use !important and the end of every customization like 
+you would when only using the tags and not a class or id in html.  -->
+<p>Front-End Developer.</p>
+</div>
+
+
 </body>
 </html>

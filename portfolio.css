@@ -1,9 +1,63 @@
+html { /*used to change the background of the entire page, using body doesn't work because the navbar is 
+    the same height as the body*/
+    background-image: url('https://cdn.lowgif.com/full/781aca213a704e7d-.gif');  /*this is used to make the background
+    have an image instead of a color */
+    /* maybe try to find a neat / cool background for the top portion of 
+   the page so the entire site page isn't just one color */
+
+    
+
+} 
+
 body {
-    background-color: rgb(62, 68, 63);
+    background: none !important; /* !important overrides bootstrap which prevents certain things in css from working 
+    properly*/
+  }
+  
+
+
+.navbar-custom { /* used to change the color of a navbar to a custom non-bootsrap color*/
+    background-color: #171033;
+    
 
 }
 
-.navbar-custom{
-    background-color: rgb(12, 0, 0);
+
+
+ button:hover {  /* this gives the buttons on the navbar a hover effect*/
+    /*background-color: transparent !important; /*this changes the background color of the buttons--overrides bootstrap */
+    transform: skew(-7deg);
+    background-color: white !important;
+   
+} 
+
+h1 {
+  margin-top: 200px !important;
+  text-align: center; /* have to use text-align and not margin for centering text and not margin: auto or margin: 0 */
+   color:#ffbb33;
+   height:100vh;
+   text-transform: uppercase;
+   font-family: 'Catamaran', sans-serif;
+   font-size: 70px !important;
+   font-weight: bolder;
+   background-color:transparent;
+   font-weight: bold !important;
+   
+   
 }
+
+p {
+    margin-top: -560px !important;
+    color:rgb(250, 244, 244);
+    font-size:50px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    background-color:transparent;
+    
+
+   
+}
+
+
 
