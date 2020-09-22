@@ -27,8 +27,6 @@ body {
  button:hover {  /* this gives the buttons on the navbar a hover effect*/
     /*background-color: transparent !important; /*this changes the background color of the buttons--overrides bootstrap */
     transform: skew(-7deg);
-    background-color: white !important;
-   
 } 
 
 h1 {
