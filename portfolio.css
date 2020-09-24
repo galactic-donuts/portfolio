@@ -4,6 +4,7 @@ html { /*used to change the background of the entire page, using body doesn't wo
     have an image instead of a color */
     /* maybe try to find a neat / cool background for the top portion of 
    the page so the entire site page isn't just one color */
+   
 
     
 
@@ -17,10 +18,10 @@ body {
 
 
 .navbar-custom { /* used to change the color of a navbar to a custom non-bootsrap color*/
-    background-color: #171033;
-    
-
-}
+    /*background-color: #171033;*/
+    background-image:linear-gradient(to right, midnightblue, purple);
+    /*opacity:90%;*/
+    }
 
 
 
@@ -45,16 +46,53 @@ h1 {
 }
 
 p {
-    margin-top: -560px !important;
-    color:rgb(250, 244, 244);
-    font-size:50px;
+    margin-top: -570px !important;
+    color:rgb(234, 234, 243);
+    font-size:45px;
     font-family: 'Catamaran', sans-serif;
     font-weight: bolder;
     text-align: center;
-    background-color:transparent;
-    
+    background-color:transparent; 
+}
 
+    .flex-container{ /*there needs to be a parent conatainer (id or class) in which the elements you want to be
+        displayed with flexbox are held in (gave the name of flex*/
+        display:flex; /* display needs to be set to flex and not inline-flex for flexbox to work */
+        flex-direction: row;
+        justify-content: center; /*this centers all of the contenet within the container */
+        
+        
+
+    
+}
+#github{
+    border-radius:10px;
+    width: 120px;
+    height:40px;
+    background-image: linear-gradient(to right, midnightblue,purple);
+    color:#ffbb33;
+    border-style:none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Catamaran', sans-serif;
+    margin-left:10px; /*adding margin-left helpd space out the buttons that were too close together
+    using justify-content: space-around; caused the buttons to be too far apart from each ot*/
+  
    
+    
+}
+
+#linkedin{
+    border-radius:10px;
+    width:120px;
+    height:40px;
+    background-image:linear-gradient(to right, purple, midnightblue);
+    color:#ffbb33;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Catamaran', sans-serif;
+    margin-left: 10px;
 }
 
 

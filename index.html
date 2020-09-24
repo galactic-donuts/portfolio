@@ -31,9 +31,12 @@
           <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
       </div> -->
-      <!-- regular div and using the h1 tag alone would not allow margin-top to work in css
-    gave the div an id name and put the h1 tag inside the div for it to work -->
+      <!-- a regular div and using the h1 tag alone would not allow margin-top to work in css.-->
       <div>
+        <!-- should probably go back and change the h1 tag and first p tag to classes or ids. since the navbar is 
+        a bootstrap template, it requires you to add '!important' at the end of certain css rules to override bootstrap.
+      if they have a class or id name, the '!important' is not required/necessary to make sure the css rules you applied
+    are working correctly. -->
 <h1>Kiya Jones</h1> 
 <!-- <h1 class='name'>My Name</h1> would work and allow you customize it in css without have to use !important
 as would using an id. <div id="heading"></div> would not work when trying to style in css because the heading 
@@ -41,6 +44,23 @@ is not being specifically targeted so you would have to use !important and the e
 you would when only using the tags and not a class or id in html.  -->
 <p>Front-End Developer.</p>
 </div>
+<!-- nest img tag inside of anchor tag for hyperlinking an image, same goes for text, nest text inside of the anchor tag -->
+<div class="flex-container">
+<a href="https://github.com/galactic-donuts">
+<button id="github">GitHub</button>
+</a>
+<a href="linkedin.com">
+  <button id="linkedin">LinkedIn</button>
+</a>
+</div>
+
+
+
+<!-- giving paragraphs an id or class names makes it easier to go back and style them in css. using the paragraph tag 
+only makes sense if you want every paragraph to have the same exact styling. you won't be able to have different styling
+for each because they will all only belong to one tag so that is why you want to give different paragraps their own class
+or id name. -->
+<p id="paragraph2"></p>
 
 
 </body>
