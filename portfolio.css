@@ -90,10 +90,52 @@ p {
     color:#ffbb33;
     border-style: none;
     text-transform: uppercase;
-    font-weight: bolder;
     font-family: 'Catamaran', sans-serif;
+    font-weight: bolder;
     margin-left: 10px;
 }
+
+#heading {
+    color:#ffbb33;
+    font-size:50px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder;
+    margin-top:200px;
+    height:100vh;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+
+ }
+
+    
+    /*display: block;
+    margin:0 auto; 
+    should be centering 'about me' but it is not */
+    /*display: flex;
+    justify-content: center
+    should be aligning items across the page with flexbox when put into a parent container but it is not working.
+    */
+    /*background-image:linear-gradient(to right, midnightblue,purple);*/
+
+
+    #about-me {
+        color:white;
+        background-image:linear-gradient(to right,midnightblue,purple);
+        font-size:15px;
+        line-height:20px;
+        font-weight:lighter;
+        width: 500px;
+       border-radius: 10px;
+       display:block;
+       margin:0 auto;
+    
+
+    }
+   
+
+
+
+
 
 
 
