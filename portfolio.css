@@ -95,7 +95,14 @@ p {
     margin-left: 10px;
 }
 
-#heading {
+/*#section {
+    width:100vw;
+    display:block;
+    margin: 0 auto;
+    height:50px;  
+}*/
+
+.heading {
     color:#ffbb33;
     font-size:50px;
     font-family: 'Catamaran', sans-serif;
@@ -104,7 +111,10 @@ p {
     height:100vh;
     text-transform: uppercase;
     letter-spacing: -2px;
-
+    
+    display:block;
+    text-align:center;
+  
  }
 
     
@@ -118,19 +128,34 @@ p {
     /*background-image:linear-gradient(to right, midnightblue,purple);*/
 
 
-    #about-me {
+    .about-me {
         color:white;
         background-image:linear-gradient(to right,midnightblue,purple);
+        font-family: 'Catamaran', sans-serif;
         font-size:15px;
         line-height:20px;
         font-weight:lighter;
         width: 500px;
        border-radius: 10px;
-       display:block;
+       display: block;
        margin:0 auto;
-    
+    }
+
+    .projects {
+        color: #ffbb33;
+        font-size: 50px;
+        font-family: 'Catamaran', sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        margin-top: 200px;
+        display: block;
+        text-align:center;
+        height: 100vh;
+
 
     }
+
+    
    
 
 
