@@ -111,9 +111,9 @@ p {
     height:100vh;
     text-transform: uppercase;
     letter-spacing: -2px;
-    
     display:block;
     text-align:center;
+    
   
  }
 
@@ -129,16 +129,24 @@ p {
 
 
     .about-me {
-        color:white;
+       
         background-image:linear-gradient(to right,midnightblue,purple);
         font-family: 'Catamaran', sans-serif;
         font-size:15px;
         line-height:20px;
         font-weight:lighter;
         width: 500px;
-       border-radius: 10px;
+       border-radius: 5px;
        display: block;
        margin:0 auto;
+       padding:5px;
+       border-style:groove;
+       border-width: 3px;
+       border-color: white;
+       border-top-color: white;
+       border-bottom-color:white;
+       border-right-color:#ffbb33;
+       border-left-color: #ffbb33;
     }
 
     .projects {
@@ -152,8 +160,55 @@ p {
         text-align:center;
         height: 100vh;
 
-
     }
+  
+    #project-thumbnails {
+        display:flex;
+        justify-content: center;
+        margin-top: -550px;
+    }
+
+    .css-creature {
+        width: 300px;
+        height: 200px;
+        border-radius: 5px;
+        border-style: groove;
+        border-width: 4px;
+        border-top-color: midnightblue;
+        border-bottom-color: purple;
+        border-right-color:#ffbb33;
+        border-left-color: #ffbb33;
+        padding:5px;
+        
+    } 
+
+    .static-layout {
+        width: 300px;
+        height: 200px;
+        border-radius: 5px;
+        border-style: groove;
+        border-width: 4px;
+        border-top-color: midnightblue;
+        border-bottom-color: purple;
+        border-right-color: #ffbb33;
+        border-left-color:#ffbb33;
+        padding:5px;
+    }
+
+    .api-project {
+        width: 300px;
+        height: 200px;
+        border-radius: 5px;
+        border-style: groove;
+        border-width: 4px;
+        border-top-color: midnightblue;
+        border-bottom-color: purple;
+        border-right-color: #ffbb33;
+        border-left-color:#ffbb33;
+        padding:5px;
+    }
+  
+    
 
     
    
