@@ -270,6 +270,19 @@ p {
 form {
    size: 20px;
 }
+.api2project {
+    width: 300px;
+        height: 200px;
+        border-radius: 5px;
+        border-style: groove;
+        border-width: 4px;
+        border-top-color: midnightblue;
+        border-bottom-color: purple;
+        border-right-color: #ffbb33;
+        border-left-color:#ffbb33;
+        padding:10px;
+
+}
 
 
 
